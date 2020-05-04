@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Reiventta</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!--link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"-->
+
+  <!-- Custom styles for this template -->
+  <link href="../../css/business-frontpage.css" rel="stylesheet">
+  <!--link href="css/business-frontpage.css" rel="stylesheet"-->
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="../../index.html">Reinventta</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../../index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Minha conta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Trilha</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Parceiros.html">Parceiros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/Cursos.html">Cursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Meus pontos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="bg-primary py-5 mb-5">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-12">
+          <h1 class="display-4 text-white mt-5 mb-2">Reinventta</h1>
+          <p class="lead mb-5 text-white-50">O lugar certo para mudar seu jeito de fazer negócio.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container">
+
+   
+    <!-- /.row -->
+    <!-- <h2 id="Parceiros">Cadastro</h2>
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputRazaoSocial">Razão social</label>
+          <input type="text" class="form-control" id="inputRazaoSocial" placeholder="Razão social">
+        </div>
+        <div class="form-group col-md-3">
+          <label for="inputCnpj">CNPJ</label>
+          <input type="text" class="form-control" id="inputCnpj" placeholder="CNPJ">
+        </div>
+        <div class="form-group col-md-3">
+          <label for="inputInscricaoEstadual">Inscrição estadual</label>
+          <input type="text" class="form-control" id="inputInscricaoEstadual" placeholder="Inscrição estadual">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEndereco">Endereço</label>
+          <input type="text" class="form-control" id="inputEndereço" placeholder="Endereço">
+        </div>
+        <div class="form-group col-md-3">
+          <label for="inputTelefone">Telefone</label>
+          <input type="text" class="form-control" id="inputTelefone" placeholder="Telefone">
+        </div>
+        <div class="form-group col-md-3">
+          <label for="inputEmail">Email</label>
+          <input type="email" class="form-control" id="inputEmail" placeholder="@email">
+        </div>
+      </div>
+
+
+
+
+     
+      <!-- <div class="form-group">
+        <label for="inputAddress2">Endereço 2</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, hotel, casa, etc.">
+      </div> -->
+
+
+
+      <!-- <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputCity">Cidade</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputEstado">Estado</label>
+          <select id="inputEstado" class="form-control">
+            <option selected>Escolher...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="inputCEP">CEP</label>
+          <input type="text" class="form-control" id="inputCEP" placeholder="00.000-000">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Clique em mim
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Cadastrar</button>
+      <button type="reset" class="btn btn-danger">Cancelar</button>
+    </form>
+  </div> --> 
+  <!-- /.container -->
+  <!--Chat-->
+  <button class="open-button" onclick="openForm()">Chat</button>
+
+  <div class="chat-popup" id="myForm">
+    <form action="/action_page.php" class="form-container">
+      <h1>Chat</h1>
+  
+      <label for="msg"><b>Message</b></label>
+      <textarea placeholder="Type message.." name="msg" required></textarea>
+  
+      <button type="submit" class="btn">Send</button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div>
+  
+  <script>
+  function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+  
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
+  </script>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Reinventta 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
